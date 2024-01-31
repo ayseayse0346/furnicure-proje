@@ -26,6 +26,7 @@ body{
 display: flex;
 justify-content: space-between;
 padding: 10px 50px;
+border-bottom: 2px solid #AEA08D ;
 
 }
 .logo{
@@ -238,4 +239,90 @@ width: 100%;
 height: 90%;
 border-radius: 20px;
 object-fit: cover;
+}
+
+.contact{
+background-color: #AEA08D;
+display: flex;
+padding: 2rem;
+justify-content: center;
+gap: 1rem;
+align-items: center;
+flex-wrap: wrap;
+}
+.expert{
+width: 50%;
+padding: 1rem;
+background-color: inherit;
+}
+
+.lookforexpert{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+span{
+    color: orangered;
+}
+
+.leaveInfo{
+    margin-top:   1rem;
+    line-height: 1.5rem;
+}
+
+
+.formsection{
+width: 40%;
+font-size: 1.5rem;
+background-color: inherit;
+}
+
+.formelement{
+margin: 1.5rem 1rem;
+}
+.formelement input{
+width: 100%;
+border: none;
+background-color: inherit;
+padding: 0.5rem 0;
+border-bottom: 1px solid black;
+
+}
+
+.submit{
+    padding: 1rem;
+    border-radius: 5px;
+    width: 13rem;
+    height: 40px;
+    font-style: italic;
+    margin-left:1rem ;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.submit:hover{
+    color: blueviolet;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid red 2px; */
+    padding: 2rem;
+    align-items: center;
+}
+
+.policy{
+    display: flex;
+   gap: 1rem;
+
+}
+
+.policy a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    color: inherit;
 }
